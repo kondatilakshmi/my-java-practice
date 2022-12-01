@@ -1,0 +1,19 @@
+ import java.util.Scanner;
+public class Prime
+{
+    public static void main(String[] args)
+    {
+      Scanner sc=new Scanner(System.in);
+     int a=sc.nextInt();
+     String b=sc.nextLine();
+     if(a==1*a%10)
+     {
+         System.out.println("Prime Number");
+     }
+         else if(a!=1*a%10)
+         {
+             System.out.println("Not a prime ");
+         }
+     }
+}
+      
