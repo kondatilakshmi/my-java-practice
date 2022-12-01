@@ -1,0 +1,13 @@
+import java.util.*;
+public class Simple
+{
+    public static void main(String args[])
+    {
+    int a,b;
+    Scanner sc=new Scanner(System.in);
+    a=sc.nextInt();
+    b=sc.nextInt();
+    float c=sc.nextFloat();
+    System.out.printf("%.2f",a*b*c/100);
+    }
+}
