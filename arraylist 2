@@ -1,0 +1,13 @@
+import java.util.*;
+public class Array2
+{
+    public  static void main(String args[])
+    {
+        ArrayList b=new ArrayList();
+        b.add("Cat");
+        b.add("Dog");
+        b.add("Cow");
+        System.out.println("ArrayList"+b);
+        System.out.println("Element at Index 1:"+b.get(1));
+    }
+}
