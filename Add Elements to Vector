@@ -1,0 +1,15 @@
+import java.util.*;
+public class collection
+{
+    public static void main(String[]args)
+    {
+     Vector al=new Vector();
+    al.add("Dog");
+    al.add("Horse");
+    al.add("Cat");
+    System.out.println("Vector:"+al);
+    al.set(0,"Crocodile");
+    System.out.println("New Vector:"+al);
+    }
+
+}
