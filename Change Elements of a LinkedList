@@ -1,0 +1,15 @@
+import java.util.*;
+public class collection
+{
+    public static void main(String[]args)
+    {
+    LinkedList al=new LinkedList();
+    al.add("Java");
+    al.add("python");
+    al.add("Javascript");
+    al.add("java");
+    System.out.println("LinkedList:"+al);
+    System.out.println("Updated LinkedList:"+al);
+    }
+
+}
