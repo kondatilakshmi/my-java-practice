@@ -1,0 +1,13 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+{
+    ArrayDeque<String> a=new ArrayDeque();
+    a.add("Dog");
+    a.add("Cat");
+    a.add("Horse");
+    System.out.println("ArrayDeque:"+a);
+    System.out.println("First Element:"+a.peekFirst());
+    System.out.println("Last Element:"+a.peekLast());
+    }
+}
