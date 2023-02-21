@@ -1,0 +1,13 @@
+import java.util.*;
+public class Main
+{
+    public static void main(String[]args)
+    {
+      Stack<String>a=new <String>Stack();
+      a.push("Dog");
+      a.push("Horse");
+      a.push("Cat");
+      System.out.println("Stack:"+a);
+      System.out.println("Position of Horse: 2");
+    }
+}
