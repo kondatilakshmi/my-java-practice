@@ -1,0 +1,11 @@
+import java.util.*;
+public class Main{
+  public static void main (String[]args) {
+    Stack<String> a=new Stack();
+    a.push("Dog");
+    a.push("Horse");
+    a.push("cat");
+    System.out.println("Initial Stack:"+a);
+    System.out.println("Removed Element:"+a.get(2));
+  }  
+}
