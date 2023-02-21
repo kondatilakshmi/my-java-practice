@@ -1,0 +1,12 @@
+import java.util.*;
+public class Main
+{
+    public static void main(String[] args)
+    {
+       HashMap<Integer,String> Map=new<Integer,String>HashMap();
+       Map.put(8,"Java");
+       Map.put(1,"JavaScript");
+       Map.put(3,"Python");
+       System.out.println("HashMap:"+Map);
+    }
+}
