@@ -1,0 +1,12 @@
+import java.util.*;
+public class Main{
+ public static void  main(String[]args)
+ {
+    PriorityQueue<Integer>a=new PriorityQueue();
+     a.add(2);
+     a.add(4);
+     System.out.println("PriorityQueue:"+a);
+     a.add(1);
+     System.out.println("Updated PriorityQueue:"+a);
+ }
+}
