@@ -1,0 +1,11 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+{
+    ArrayDeque a=new  ArrayDeque();
+    a.offer("Cat");
+    a.offer("Dog");
+    a.offer("Horse");
+    System.out.println("ArrayDeque:"+a);
+    }
+}
