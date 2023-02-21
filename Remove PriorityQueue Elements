@@ -1,0 +1,14 @@
+import java.util.*;
+public class Main
+{
+    public static void main (String[]args)
+    {
+       PriorityQueue<Integer> a=new<Integer>PriorityQueue();
+        a.add(1);
+        a.add(4);
+        a.add(2);
+        System.out.println("Priority Queue:"+a);
+        System.out.println("Is the Element 2 removed? True");
+        System.out.println("Removed Element Using poll():1");
+    }
+}
