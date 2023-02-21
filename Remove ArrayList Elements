@@ -1,0 +1,15 @@
+import java.util.*;
+public class collection
+{
+    public static void main(String args[]) 
+    {
+      ArrayList a=new ArrayList();
+      a.add("Dog");
+      a.add("Cat");
+      a.add("Horse");
+      System.out.println("ArrayList"+a);
+      a.remove(2);
+      System.out.println("Updated ArrayList:"+a);
+      System.out.println("Removed Element: Horse");
+    }
+}
