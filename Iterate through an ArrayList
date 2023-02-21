@@ -1,0 +1,15 @@
+import java.util.*;
+public class collection
+{
+    public static void main(String[]args)
+    {
+    ArrayList al=new ArrayList();
+    al.add("Cow");
+    al.add("Cat");
+    al.add("Dog");
+    System.out.println("ArrayList:"+al);
+    System.out.println("Accessing individual elements:"+al);
+    
+    }
+
+}
