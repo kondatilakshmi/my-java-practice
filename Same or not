@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Same {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt(); 
+        int m = sc.nextInt(); 
+        int sum1 = 0;
+        int sum2 = 0;
+        int[] arr1 = new int[n];
+        for (int i = 0; i < n; i++) {
+            int x = sc.nextInt();
+            arr1[i] = x;
+            sum1 += x;
+        }
+        int[] arr2 = new int[m];
+        for (int i = 0; i < m; i++) {
+            int x = sc.nextInt();
+            arr2[i] = x;
+            sum2 += x;
+        }
+        if (sum1 == sum2 && n == m) {
+            System.out.println("Same");
+        } else {
+            System.out.println("Not Same");
+        }
+
+        sc.close();
+    }
+}
